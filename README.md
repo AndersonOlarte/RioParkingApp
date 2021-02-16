@@ -4,16 +4,16 @@
 - Valeria Mejía Mejía 
 - Ánderson Olarte Martinez
 
-## 1.Introducción.
-Hoy en día vivimos en una sociedad con un ritmo de vida cada vez más acelerado, y las nuevas tecnologías son gran causante de esto. Las nuevas tecnologías han propiciado un escenario ideal donde cada una de las respuestas a nuestras necesidades convergen y se encuentran a la orden de la mano. Tenemos una amalgama de servicios y ofertas en nuestra palma que van desde servicios hospitalarios hasta restaurantes y centros de recreación. En este contexto, es cuestión de tiempo que servicios faltantes se unan al fenómeno de la revolución TIC, ingresando a este sector con las múltiples opciones que nos brinda, que van desde servicios web hasta Apps móviles. En este orden de ideas, actividades tan cotidianas como llegar a un lugar y buscar un parqueadero, pronto migrarán al mundo digital.
+## 1. Introducción.
+Hoy en día vivimos en una sociedad con un ritmo de vida cada vez más acelerado, y las nuevas tecnologías son gran causante de esto. Estas novedosas herramientas han propiciado un escenario ideal donde cada una de las respuestas a nuestras necesidades convergen y se encuentran a la orden de la mano. Tenemos una amalgama de servicios y ofertas en nuestra palma que van desde servicios hospitalarios hasta restaurantes y centros de recreación. En este contexto, es cuestión de tiempo que servicios faltantes se unan al fenómeno de la revolución TIC, ingresando a este sector con las múltiples opciones que nos brinda, que van desde servicios web hasta Apps móviles. En este orden de ideas, actividades tan cotidianas como llegar a un lugar y buscar un parqueadero, pronto migrarán al mundo digital.
 
-## 2.Tema.
+## 2. Tema.
 el tema principal de la nuestro proyecto será las aplicaciones orientas al servicio de conectar parqueaderos con usuarios.
 
-## 3.Planteamiento del problema.
+## 3. Planteamiento del problema.
 La urbanización y la sobrepoblación de las ciudades trae consigo retos que debemos hacer frente y con ello buscar soluciones. Uno de estos, es la dificultad que resulta a la hora de buscar un parqueadero adecuado. Muchas veces no conocemos la ubicación exacta de alguno que se encuentre cerca de nuestro lugar de destino o los servicios requeridos, como pueden ser celda con techo, servicio de lavado, servicio de locker, celdas para motocicletas o bicicletas, entre otros. Esto genera que muchas veces desperdiciemos tiempo ingresando a un parqueadero no adecuado, o que no encontremos celdas disponibles.  
 
-## 4.Justificación.
+## 4. Justificación.
 la creación de rioparking app obedece a los cambios que se presentan actualmente sobre como 
 interactúa un cliente con los servicios que diferentes empresas o compañias puedan prestarle.
 es indispensable que cualquier negocio que pretenda prestar algún tipo de servicio al ciudadano 
@@ -22,7 +22,7 @@ RioParking surge como respuesta a la necesidad de las personas de poder encontra
 Con esta app también se busca la generación de ingresos provenientes de publicidad tanto de parqueaderos como otros productos. Rioparking nace como una respuesta a una necesidad detectada en el mercado ya que es común ver este tipo de aplicaciones que se orientan a conectar tanto cliente como proveedores, no son muchas las que se dediquen a resolver esta necesidad particular 
 
 
-## 5.Estado del arte.
+## 5. Estado del arte.
 Movilizarse diariamente de un lugar a otro es una actividad hoy en día indispensable para la mayor parte de la sociedad actual, ya sean desplazamientos con el fin de llegar a nuestro lugar de trabajo, estudio, nuestro hogar, etc. Todos tenemos la necesidad de desplazarnos. En Colombia, muchas de las principales ciudades sufren de la ineficiencia de sus sistemas de transporte público, ya sea por su falta de cobertura, horarios no apropiados o por la inseguridad que este puede generar. por estas razonesm los ciudadanos prefieren movilizaes en transporte particular que pueda subsanar los anteriores inconvenientes. Sin embargo, esto trae desventajas, ya que puede provocar un gran número de vehículos rodando en las calles creando grandes volúmenes de tráfico y saturación de ciertos servicios como los parqueaderos.
 
 En Colombia han surgido diferentes soluciones que han tenido como fin conectar a personas que tienen parqueaderos desocupados con quienes lo necesitan como las siguientes.  
@@ -35,7 +35,7 @@ imagen obtenida de <https://www.larepublica.co/internet-economy/aplicaciones-par
  Como factor diferenciador, RioApp permitirá no solo la selección del parqueadero más cercano 
  sino que también incluirá la añadirá la opción de tarifas por horas, a diferencia de la competencia que solo oferta paquetes mensuales, además será posible elegir los servicios adicionales que presta el parqueadero como lo son el servicio de lavado, translado, lockers, etc.
 
-## 6. Objetivo General
+## 6. Objetivo General.
 Crear un enlace con el usuario para facilitar y agilizar el proceso de, busqueda, elección y reserva de parqueaderos en 
 la ciudad de Medellín.
 
@@ -45,5 +45,5 @@ la ciudad de Medellín.
 + generar un modelo de negocio a partir de las cualidades que ofrece la app
 + analizar los resultados de busquedas para mejorar la experiencia de usuario.
 
-## 9. Mockup
+## 9. Mockup.
 <https://marvelapp.com/prototype/1407aijj>
