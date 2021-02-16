@@ -39,7 +39,7 @@ Movilizarse diariamente de un lugar a otro es una actividad hoy en día indispen
 
 En Colombia han surgido diferentes soluciones que han tenido como fin conectar a personas que tienen parqueaderos desocupados con quienes lo necesitan como las siguientes.  
   
-![parqueaderos](https://github.com/aolartemartinez11/RioParkingApp/blob/master/Images/Anteproyecto/ResumenParkingApps.png "Apps sobre parqueaderos")
+![parqueaderos](https://github.com/aolartemartinez11/RioParkingApp/blob/master/Images/Anteproyecto/ResumenParkingApps.png "Apps sobre parqueaderos")  
 imagen obtenida de <https://www.larepublica.co/internet-economy/aplicaciones-para-encontrar-donde-parquear-su-carro-y-ofrecer-su-garaje-2905440>  
 
  entre las principales encontramos a Nidoo, una pap que opera en las dos principales ciudades de Colombia y entre sus principales caracteristicas nos permite encontrar parqueaderos no solo oficiales, sino también de personas que cuenten con un espacio privado y quieran ofrecerlo como lugar de parqueo aumentando ampliamente la oferta de lugares. Tambíen tenemos a Ruedaz, una aplicación donde puedes encontrar amplia variedad y se caracteriza por presentar la oferta de ingresar gratis hasta por tres horas a los parqueaderos de la red si te encuentras pagando una mensualidad en otros. su principal desventaja es que el pago de la mensualidad es fijo y evita que esta propiedad pueda influir a la hora de elegir el lugar de parqueo. Por otro lado está Parkot, donde su principal ventaja es la de poder ubicar el parqueadero más cercano mediante servicios de mapas y la de poder reservar el parqueadero de manera virtual para pagos mensuales.  
