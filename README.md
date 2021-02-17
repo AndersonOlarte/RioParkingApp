@@ -108,3 +108,17 @@ se guardarían datos del Admin.
 
 También se usarían servicios externos como mapas para ver la ubicación de los parqueaderos
 enlaces a redes sociales
+
+## 11. Bibliografía.
+
++ https://www.paginasamarillas.com.co/medellin/servicios/parqueaderos
+
++ https://caracol.com.co/radio/2016/10/09/tecnologia/1476028325_089080.html
+
++ https://www.larepublica.co/internet-economy/aplicaciones-para-encontrar-donde-parquear-su-carro-y-ofrecer-su-garaje-2905440
+
++ https://marvelapp.com/project/5460742
+
++ https://modelocanvas.net/descargar-plantillas-ejemplos/
+
++ https://next.canvanizer.com/canvas/ilnSOzJp4DiLa
