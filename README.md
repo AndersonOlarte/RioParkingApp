@@ -65,24 +65,19 @@ la ciudad de Medellín.
 
 ## 9. Mockup.
 
-![vista1](https://github.com/aolartemartinez11/RioParkingApp/blob/master/Images/Anteproyecto/vista1.png "Mockup 1")  
-
+![vista1](https://github.com/aolartemartinez11/RioParkingApp/blob/master/Images/Anteproyecto/v1.png "Mockup 1")  
 En esta vista tenemos el inicio de sesión, en el cual el usuario debe ingresar su nombre y contraseña, además de esto, si es un usuario nuevo, puede registrarse
 
-![vista2](https://github.com/aolartemartinez11/RioParkingApp/blob/master/Images/Anteproyecto/vista2.png "Mockup 2")  
-
+![vista2](https://github.com/aolartemartinez11/RioParkingApp/blob/master/Images/Anteproyecto/v5.png "Mockup 2")  
 En esta vista el usuario nuevo hace el registro con sus datos personales y crea una contraseña para futuros ingresos a la app 
 
-![vista3](https://github.com/aolartemartinez11/RioParkingApp/blob/master/Images/Anteproyecto/vista3.png "Mockup 3") 
-
+![vista3](https://github.com/aolartemartinez11/RioParkingApp/blob/master/Images/Anteproyecto/v2.png "Mockup 3") 
 Aquí el usuario podrá comenzar a mirar cada uno de los parqueaderos, con sus respectivas fotos, ubicación, descripción de servicios y precios, y luego podrá elegir en cual de ellos quiere hacer una reserva
 
-![vista4](https://github.com/aolartemartinez11/RioParkingApp/blob/master/Images/Anteproyecto/vista4.png "Mockup 4")  
-
+![vista4](https://github.com/aolartemartinez11/RioParkingApp/blob/master/Images/Anteproyecto/v3.png "Mockup 4")  
 En esta vista, el usuario realiza la reserva del parqueadero, con sus respectivas fechas, horas y servicios adicionales, uno de ellos es elegir la celda exacta en la que quiere parquear su  carro y finalmente reservar
 
-![vista5](https://github.com/aolartemartinez11/RioParkingApp/blob/master/Images/Anteproyecto/vista5.png "Mockup 5")
-
+![vista5](https://github.com/aolartemartinez11/RioParkingApp/blob/master/Images/Anteproyecto/v4.png "Mockup 5")
 En esta vista el usuario podrá ver cuales celdas están disponibles y elegir la que prefiera para terminar con el proceso de reserva
 
 <https://marvelapp.com/prototype/1407aijj>
