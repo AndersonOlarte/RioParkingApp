@@ -10,10 +10,15 @@ html {
   }
   body{
      font-family: sans-serif; /*elegimos una fuente para la letra de toda la página */
+     background-color:#F3F3F3;
+    }
+  a{
+    text-decoration: none;
   }
-  
+  li{
+    list-style: none;
+  }
   .Login{
-    border: 1px solid #BDBBBB;
     width: 330px;
     position: absolute;
     left:50%;
@@ -22,6 +27,7 @@ html {
     padding:2% 4%;
     border-radius: 10px;
     text-align: center;
+    background-color: white;
 
   }
   .Login .Title{
@@ -53,11 +59,27 @@ html {
     cursor:pointer;
   } 
 .footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
-  border: 1px solid black;
+  height: 150px;
+  position:absolute;
+  bottom: -20%;
+  margin:0;
+  display: flex;
+  justify-content:space-around;
+  background-color: white;
 }
-
-    
+.footer-social_media{
+  display:flex;
+  align-items:flex-end;
+  padding:15px;
+}
+.footer-social_media img{
+  width: 40px;
+  height: 40px;
+  display: inline;
+  align-items: flex-end;
+  margin:10px;
+}
+.footer-information{
+  font-size: 15px;
+}
