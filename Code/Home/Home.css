@@ -108,6 +108,9 @@ padding: 15px;
   cursor:pointer;
   text-align: center;
 } 
+.characteristics{
+  font-size:15px;
+}
 /* --------------------.right-sidebar------------------ */
 .right-sidebar{
   grid-area: sidebar1;
@@ -162,7 +165,3 @@ padding: 15px;
   display: flex;
   align-items:center;
 }
-.footer-logo-img{
-  /* width: 200px;
-  height: 200px;*/
-} 
