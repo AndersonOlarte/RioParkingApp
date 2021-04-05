@@ -62,10 +62,12 @@ ul{
   grid-column: main-start/ span main-end;
   border-radius: 20px;
   padding: 30px;
+  background-color:#fff;
+
 }
 .main .main-item{
   padding:20px;
-  background-color:white;
+  background-color:#f3f3f3;
 }
 .main-items{
   display: grid;
@@ -107,6 +109,7 @@ padding: 15px;
   margin-left:10px;
   cursor:pointer;
   text-align: center;
+  background-color: rgba(5, 5, 5, 0.15);
 } 
 .characteristics{
   font-size:15px;
@@ -140,6 +143,7 @@ padding: 15px;
   grid-area: sidebar2;
   grid-row: sidebar2-start/ span sidebar2-end;
   border-radius: 20px;
+  background-color: #fff;
 }
 /*----------------------- Footer-------------------- */
 .footer{
