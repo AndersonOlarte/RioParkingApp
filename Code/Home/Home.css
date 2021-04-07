@@ -1,3 +1,9 @@
+:root{
+  --main-color:#F3F3F3;
+  --background-color: white;
+}
+
+
 html {
     box-sizing: border-box;
   }
@@ -17,7 +23,7 @@ a{
 .container {
   display:grid;
   /* background-color: violet; */
-  grid-template-columns:repeat(5, 1fr);
+  grid-template-columns:repeat(4, 1fr) 150px;
   grid-template-rows: 100px autofit autofit 200px;  /* grid-template-rows: autofit autofit autofit 200px; */
   gap: 30px;
   grid-template-areas:  'header header header header header'
@@ -27,7 +33,7 @@ a{
 
 }
 .container > *{
-  background-color:#F3F3F3;
+  background-color: var(--main-color);
 
 }
 /* -----------------header setup ---------------------*/
@@ -48,13 +54,15 @@ ul{
   display: inline;
   margin: 40px 20px;
   padding:15px;
+
 }
 .header li:hover{
-  background-color: white;
+  background-color: var(--background-color);
   transition: background-color .5s;
 }
 .header-menu{
   padding:10px;
+
 }
 /* ---------------------main setup ------------------------*/
 .main{
@@ -62,12 +70,12 @@ ul{
   grid-column: main-start/ span main-end;
   border-radius: 20px;
   padding: 30px;
-  background-color:#fff;
+  background-color:var(--background-color);
 
 }
 .main .main-item{
   padding:20px;
-  background-color:#f3f3f3;
+  background-color:var(--main-color);
 }
 .main-items{
   display: grid;
@@ -80,7 +88,7 @@ ul{
 .main>p{
 text-align: center;
 font-size: 2em;
-background-color: white;
+background-color: var(--background-color);
 padding: 15px;
 }
 .main-item img{
@@ -124,7 +132,7 @@ padding: 15px;
 .right-sidebar_title{
   font-size: 30px;
   text-align: center;
-  background-color:rgba(242, 243, 243, 0.712);
+  background-color:var(--main-color);
   margin:15px;
   margin-top:50px;
 }
@@ -143,7 +151,7 @@ padding: 15px;
   grid-area: sidebar2;
   grid-row: sidebar2-start/ span sidebar2-end;
   border-radius: 20px;
-  background-color: #fff;
+  background-color: var(--background-color);
 }
 /*----------------------- Footer-------------------- */
 .footer{
