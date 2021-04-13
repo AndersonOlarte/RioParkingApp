@@ -26,11 +26,11 @@ a{
   display:grid;
   /* background-color: violet; */
   grid-template-columns:repeat(4, 1fr) 150px;
-  grid-template-rows: 100px autofit autofit 200px;  /* grid-template-rows: autofit autofit autofit 200px; */
+  grid-template-rows: 100px autofit autofit 200px;
   gap: 30px;
   grid-template-areas:  'header header header header header'
                         'sidebar1 main main main sidebar2'
-                        '   .     main main main sidebar2'
+                        '. main main main sidebar2'
                         'footer footer footer footer footer';
 
 }
@@ -67,13 +67,12 @@ ul{
   margin: 10px 10px;
   padding:15px;
   margin-bottom:0;
-  /* padding-top: 0;
-  padding-bottom:0; */
   align-items: flex-end;
 }
 .header li:hover{
   background-color: var(--background-color);
   transition: background-color .5s;
+  cursor:pointer;
 }
 .header-menu{
   padding:10px;
@@ -137,6 +136,12 @@ ul{
   text-align: center;
   background-color: rgba(5, 5, 5, 0.15);
 } 
+.button:hover{
+  background-color: rgba(5, 5, 5, 0.609);
+  color:white;
+  transition: .4s;
+  
+}
 .characteristics{
   font-size:15px;
 }
@@ -159,7 +164,7 @@ ul{
   padding:15px;
 }
 .filter-items li{
-  margin-top: 10px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 .filter-items .check{
@@ -174,6 +179,9 @@ ul{
   margin-top:15px;
   padding:15px;
   border-radius: 50px;
+}
+.filter-items_inNumber{
+  width: 90px;
 }
 
 .filter-items-img1:hover{
@@ -199,7 +207,7 @@ ul{
   background-color: var(--background-color);
 }
 /*----------------------- Footer-------------------- */
-.footer{
+footer{
   display: flex;
   justify-content:space-around;
   grid-area: footer;
@@ -221,4 +229,17 @@ ul{
   font-size: 15px;
   display: flex;
   align-items:center;
+}
+.footer-information ul{
+  font-size: 15px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 30px;
+  row-gap:5px;
+}
+.footer-information  a{
+  color: black;
+}
+.footer-information li:hover{
+  text-decoration: underline;
 }
