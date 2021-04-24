@@ -4,35 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stilo.css">
-    <title>Document</title>
-
-   
-
+    <link rel="stylesheet" href="..\General_CSS\commonStyle.css">
+    <link rel="stylesheet" href="Registry.css ">
+    <title>Registry</title>
 </head>
 <body>
-<div class="Formularioregistro">
+<div class="registryForm">
     <h1>Registro de nuevo usuario</h1>
     <form action="">
-        <p class="Nombre">
-            <input type="text" name="Nombre" placeholder="Nombre">
-        </p>
-        <p class="Apellido">
-            <input type="text" name="Apellido" placeholder="Apellido">
-        </p>
-        <p class="email">
-            <input type="email" name="email" placeholder="Correo electrónico">
-        </p>
-        <p class="Celular">
-            <input type="tel" name="celular" placeholder="Número de celular">
-        </p>
-        <p class="Vehículo">
-            <input type="text" name="vehículo" placeholder="Moto o carro">
-        </p>
-        <p class="Contraseña">
-            <input type="password" name="password" placeholder="Nueva contraseña">
-        </p>
-        <button type="submit">
+        <div class="inputFields">
+            <input class="input" type="text" name="Name" placeholder="Nombre">
+            <input class="input" type="text" name="Apellido" placeholder="Apellido">
+            <input class="input" type="email" name="email" placeholder="Correo electrónico">
+            <input class="input" type="tel" name="celular" placeholder="Número de celular">
+            <input class="input" type="text" name="vehículo" placeholder="tipo de vehiculo">
+            <input class="input" type="password" name="password" placeholder="Nueva contraseña">
+            <input class="input" type="password" name="password" placeholder="confirmar contraseña">
+        </div>
+        <button type="submit" class="button">
             Enviar datos
         </button>
     </form>

@@ -1,74 +1,34 @@
 *{
-
-font-family: cursive;
-box-sizing: border-box;
-}
-
-.Formularioregistro {
-    background-color: #f3f3f3 ;
-    height: auto;
-    padding: 20px;
-    position: absolute;
-    top: 5%;
-    left: 33%;        
+    
+    font-family: cursive;
+    box-sizing: border-box;
 }
 
 h1{
     text-align: center;
     margin-top: 0px;
 }
-
-.Formularioregistro form{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-
+.registryForm {
+    width: 400px;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    padding:2% 4%;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #f3F3f3;        
+}
+.button{
+    margin-top:20px;
 }
 
-.Formularioregistro form button{
-    background-color: rgba(5, 5, 5, 0.15);
-    font-size: large;
-    grid-column: 2 / 4;
-    grid-row: 5 / 6;
-    margin-bottom: 15px;
-    margin-top: 40px;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 7px;
-    border: none;
-    color:black;
-}
-
-.Formularioregistro form input{
-    padding: 10px;
-    width: 100%;
-}
-
-.Formularioregistro form p{
+.registryForm  form p{
     margin: 9px;
     margin-bottom: 35px;
 }
-
-.Nombre{
-    grid-column: 1 / 3;    
-}
-
-.Apellido{
-    grid-column: 3 / 5;
-}
-
-.email{
-    grid-column: 1 / 5;
-}
-
-.Celular{
-    grid-column: 1 / 3;
-}
-
-.Vehículo{
-    grid-column: 3 / 5;
-}
-
-.Contraseña{
-    grid-column: 1 / 3;
-    margin-bottom: 23px;
-}
+/* .inputFields{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 10px;
+} */
