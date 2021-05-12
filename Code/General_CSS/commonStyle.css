@@ -1,5 +1,8 @@
 /* ------------------footer style-------------------------------- */
-
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color:black;
+}
 footer{
     display: flex;
     justify-content:space-around;
