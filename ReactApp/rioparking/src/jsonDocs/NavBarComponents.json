@@ -1,0 +1,38 @@
+{
+    "home":{
+        "id": 0,
+        "name":"Home",
+        "address": "/home",
+        "imgAdd": "/Images/Logo_and_icons/home.png"
+    },
+    "parkings": {
+        "id": 1,
+        "name":"Parqueaderos",
+        "address": "/parkings",
+        "imgAdd": "/Images/Logo_and_icons/Parking_sign.png"
+    },
+    "price": {
+        "id": 2,
+        "name": "Price",
+        "address": "/price",
+        "imgAdd": "/Images/Logo_and_icons/dollar.png"
+    },
+    "contacts": {
+        "id": 3,
+        "name": "Contactos",
+        "address": "/contacts",
+        "imgAdd": "/Images/Logo_and_icons/Phone.png"
+    },
+    "registry": {
+        "id": 4,
+        "name": "Registrarse",
+        "address": "/registry",
+        "imgAdd": "/Images/Logo_and_icons/clipboard-with-pencil-.png"
+    },
+    "sesion": {
+        "id": 5,
+        "name": "Sesion",
+        "address": "/sesion",
+        "imgAdd": "/Images/Logo_and_icons/user.png"
+    }
+}

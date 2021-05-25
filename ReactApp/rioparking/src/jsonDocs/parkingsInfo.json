@@ -1,0 +1,62 @@
+{
+    "parking1":{
+        "name": "Parqueadero 1",
+        "imgAdd": "Images/Parking_Images/Parking_1.jfif",
+        "location":"centro",
+        "price":"$ 2.000"
+    },
+    "parking2":{
+        "name": "Parqueadero 2",
+        "imgAdd": "Images/Parking_Images/Parking_2.jfif",
+        "location":"Oriente",
+        "price":"$ 1.000"
+    },
+    "parking3":{
+        "name": "Parqueadero 3",
+        "imgAdd": "Images/Parking_Images/Parking_3.jfif",
+        "location":"Centro",
+        "price":" $ 1.200"
+    },
+    "parking4":{
+        "name": "Parqueadero 4",
+        "imgAdd": "Images/Parking_Images/Parking_4.jfif",
+        "location":"Occidente",
+        "price":"2.000"
+    },
+    "parking5":{
+        "name": "Parqueadero 5",
+        "imgAdd": "Images/Parking_Images/Parking_5.jfif",
+        "location":"Sur",
+        "price":"$ 3.000"
+    },
+    "parking6":{
+        "name": "Parqueadero 6",
+        "imgAdd": "Images/Parking_Images/Parking_6.jfif",
+        "location":"Centro",
+        "price":"$ 3.000"
+    },
+    "parking7":{
+        "name": "Parqueadero 7",
+        "imgAdd": "Images/Parking_Images/Parking_7.jfif",
+        "location":"Oriente",
+        "price":"$ 2.000"
+    },
+    "parking8":{
+        "name": "Parqueadero 8",
+        "imgAdd": "Images/Parking_Images/Parking_8.jfif",
+        "location":"Occidente",
+        "price":"$ 1.000"
+    },
+    "parking9":{
+        "name": "Parqueadero 9",
+        "imgAdd": "Images/Parking_Images/Parking_9.jfif",
+        "location":"Norte",
+        "price":"$ 2.000"
+    },
+    "parking10":{
+        "name": "Parqueadero 10",
+        "imgAdd": "Images/Parking_Images/Parking_10.jfif",
+        "location":"Centro",
+        "price":"$ 3.000"
+    }
+}

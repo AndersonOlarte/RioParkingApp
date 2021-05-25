@@ -14,7 +14,7 @@
  *
  * // <h1 class="title">Hi createElement</h1>
  */
-export function createElement(tagName, attributes, children) {
+export function createElement (tagName, attributes, children) {
   if (typeof tagName !== 'string') throw new Error('tagName must be an string')
 
   const el = document.createElement(tagName)

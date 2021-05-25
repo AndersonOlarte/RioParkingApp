@@ -21,10 +21,10 @@ body{
   padding:0;
   margin:0;
 }
-Link{
+a{
   text-decoration:none;
 }
-#root {
+.container {
   display:grid;
   /* background-color: violet; */
   grid-template-columns:repeat(4, 1fr) 150px;
@@ -36,7 +36,7 @@ Link{
                         'footer footer footer footer footer';
 
 }
-#root > *{
+.container > *{
   background-color: var(--main-color);
 
 }
@@ -60,7 +60,7 @@ ul{
   margin:0;
 }
 .header li{
-  display: inline-flex;
+  display: inline-flex;  
   margin: 10px 10px;
   padding:15px;
   margin-bottom:0;
@@ -75,11 +75,12 @@ ul{
   padding:10px;
   margin-bottom:0px;
   padding-bottom:0;
+  
 }
 .header li  img{
   width: 20px;
   height: 20px;
-  margin-right:8px;
+  margin-right:8px; 
 }
 
 /* ---------------------main setup ------------------------*/
@@ -89,6 +90,7 @@ ul{
   border-radius: 20px;
   padding: 30px;
   background-color: var(--background-color);
+  
 }
 .main .main-item{
   padding:20px;

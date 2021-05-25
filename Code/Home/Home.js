@@ -1,10 +1,10 @@
-import {createParking} from '../ComponentsJs/createParking.js'
+import { createParking } from '../ComponentsJs/createParking.js'
 import { addChild } from '../UtilsJs/createElement.js'
 
-var parking = {
-    name: 'aeroparking',
-    price: 2000,
-    ubication: 'center'
+const parking = {
+  name: 'aeroparking',
+  price: 2000,
+  ubication: 'center'
 }
-var itemsContainer = document.getElementById('list')
+const itemsContainer = document.getElementById('list')
 addChild(itemsContainer, [createParking(parking)])
