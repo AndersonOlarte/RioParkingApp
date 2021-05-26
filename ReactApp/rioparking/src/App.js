@@ -5,6 +5,7 @@ import Main from './components/Main'
 import RightSidebar from './components/RightSidebar'
 import LeftSidebar from './components/LeftSidebar'
 import Footer from './components/Footer'
+import ReserveCell from './components/ReserveCell'
 
 class App extends Component {
   render () {
@@ -14,6 +15,7 @@ class App extends Component {
     <RightSidebar/>
     <LeftSidebar/>
     <Footer/>
+    <ReserveCell/>
     </>
     )}
 }
