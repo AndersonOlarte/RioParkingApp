@@ -17,15 +17,19 @@ export default class RightSidebar extends Component {
                     <input type="number" placeholder="min"/>
                     <input type="number" placeholder="max"/>
                     <div className="radioOption">
-                        <input type="radio" />
+                        <input type="checkbox" />
                         <label>Lavado</label>
                     </div>
                     <div className="radioOption">
-                        <input type="radio" />
+                        <input type="checkbox" />
                         <label>Locker</label>
                     </div>
-                    <img src="/Images/Logo_and_icons/Bike.png" alt="byke"/>
-                    <img src="/Images/Logo_and_icons/car.png" alt="car"/>
+                    <div className="imgContainer">
+                        <img src="/Images/Logo_and_icons/Bike.png" alt="byke"/>
+                    </div>
+                    <div className="imgContainer">
+                        <img src="/Images/Logo_and_icons/car.png" alt="car"/>
+                    </div>
                 </form>
             </section>
         )

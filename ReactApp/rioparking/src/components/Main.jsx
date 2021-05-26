@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
+import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
 import parkings from '../jsonDocs/parkingsInfo.json'
+
 export default class Main extends Component{
     createItems = Object.keys(parkings).map((item)=> {
         return(
@@ -13,8 +15,12 @@ export default class Main extends Component{
                     </ul>
                 </div>
                 <div className="parkingButtons">
-                    <input type="button" value="aceptar"/>
-                    <input type="button" value="ver"/>
+                    <Link to="/contacts">
+                        <input type="button" value="Reservar"/>
+                    </Link>
+                    <Link>
+                        <input type="button" value="ver"/>
+                    </Link>
                 </div>
             </div>
             )
@@ -22,7 +28,15 @@ export default class Main extends Component{
     render() {
         return(
             <section className ="mainSection">
-                {this.createItems}
+                <Router>
+                    {this.createItems}
+                <Switch>
+                    <Route path="contacs">
+                        <p>hello</p>
+                    </Route>
+                </Switch>
+                </Router>
+
             </section>)
     }
 }

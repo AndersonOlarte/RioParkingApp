@@ -1,11 +1,10 @@
-
 /* --------------------variable declaration-------------------- */
 :root {
     --main-color:White;
     --background-color: #F8F7F7;
 }
-
 /* -------------------general setup-------------------- */
+
 html {
     box-sizing: border-box;
 }
@@ -20,48 +19,27 @@ html {
     font-family: cabin, sans-serif;
     font-size: 1.3em;
     display:grid;
-    /* background-color: violet; */
-    grid-template-columns:repeat(4, 1fr) 150px;
-    grid-template-rows: 100px autofit autofit 200px;
+    grid-template-columns:repeat(5, 1fr);
+    grid-template-rows: 200px autofit autofit 200px;
     gap: 30px;
-    grid-template-areas:  'header header header header header'
-                          'sidebar1 main main main sidebar2'
-                          '. main main main .'
-                          'footer footer footer footer footer';
-  }
-  a {
-    text-decoration: none;
-    color: black;
-  }
-  li {
-      list-style: none;
-  }
-  input[type=button] {
-    border-radius: 15px;
-    border: none;
-    display: inline;
-    width: 43%;
-    height: 40px;
-    margin-left:10px;
-    cursor:pointer;
-    text-align: center;
-    font-size: 1.1em;
-    background-color: rgba(5, 5, 5, 0.15);
-  }
-  input[type=button]:hover {
-    background-color: rgba(5, 5, 5, 0.609);
-    color:white;
-    transition: .4s;
-  }
+    grid-template-areas:    'header header header header header'
+                            'sidebar1 main main main sidebar2'
+                            '. main main main .'
+                            'footer footer footer footer footer';
+}
 
-
-/* ---------------------HEADER---------------------------- */
+  /* ---------------------HEADER---------------------------- */
 .header {
     grid-area: header;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
+.header li:hover{
+    background-color: var(--main-color);
+    transition: background-color .5s;
+    cursor:pointer;
+  }
 .navBar{
     margin-right: 20px;
 }
@@ -91,7 +69,7 @@ html {
     background-color: var(--main-color);
     padding: 20px;
     border-radius: 10px;
-    width: max-content;
+    width: min-content;
 }
 .innerContainer {
     background: linear-gradient(to bottom,var(--main-color),var(--background-color) );
@@ -108,6 +86,8 @@ html {
     padding:10px;
 }
 /* --------------------LEFTSIDEBAR------------------ */
+
+
 .leftSidebar {
     grid-area: sidebar1;
     background-color: var(--main-color);
@@ -123,7 +103,7 @@ label {
     height: 25px;
     margin-top: 15px;
 }
-.leftSidebar input[type="radio"] {
+.leftSidebar input[type="checkbox"] {
     display: inline;
     margin-right: 20px;
 }
@@ -134,19 +114,44 @@ label {
 .radioOption label {
     display: inline;
 }
+.imgContainer {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    border-radius: 100%;
+}
+.imgContainer:hover {
+    background-color: var(--background-color);
+}
+.imgContainerSel {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    border-radius: 100%;
+    background-color: var(--background-color);
+}
 .leftSidebar img {
-    width: 65px;
-    height: 65px;
-    margin-right: 30px;
+    width: 70px;
+    height: 70px;
+     margin-right: 30px;
     margin-left: 10px;
 }
-
 /* --------------------RIGHTSIDEBAR------------------ */
+
+
 .rightSidebar {
     grid-area: sidebar2;
 
 }
 /* --------------------FOOTER------------------ */
+
+
 footer {
     grid-area: footer;
     display: flex;
@@ -177,3 +182,54 @@ footer {
     margin: 0 15px;
     transition: 0.3s;
 }
+
+/* --------------------------LOGIN AND REGISTRY--------------------- */
+.formItem {
+    grid-area: main;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.formContanier {
+    background-color: var(--main-color);
+    padding:40px
+}
+.loginForm, .registryForm{
+    width: 450px;
+    padding: 30px;
+    background-color: var(--background-color);
+}
+
+.loginForm input,.loginForm select, .registryForm input ,.registryForm select {
+    height:40px;
+    width: 100%;
+    margin:10px auto;
+    border: none;
+    border-bottom: 1px solid #BDBBBB;
+}
+
+/* -------------------GENERAL STYLES-------------------- */
+a {
+    text-decoration: none;
+    color: black;
+  }
+  li {
+      list-style: none;
+  }
+  input[type=button], input[type="reset"] {
+    border-radius: 15px;
+    border: none;
+    display: inline;
+    width: 140px;
+    height: 40px;
+    margin-left:10px;
+    cursor:pointer;
+    text-align: center;
+    font-size: 1.1em;
+    background-color: rgba(5, 5, 5, 0.15);
+  }
+  input[type=button]:hover, input[type="reset"]:hover {
+    background-color: rgba(5, 5, 5, 0.609);
+    color:white;
+    transition: .4s;
+  } 
