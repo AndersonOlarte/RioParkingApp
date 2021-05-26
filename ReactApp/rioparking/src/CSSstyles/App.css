@@ -1,7 +1,7 @@
 /* --------------------variable declaration-------------------- */
 :root {
     --main-color:White;
-    --background-color: #F8F7F7;
+    --background-color: #afafaf;
 }
 /* -------------------general setup-------------------- */
 
@@ -207,10 +207,15 @@ footer {
     border: none;
     border-bottom: 1px solid #BDBBBB;
 }
+/* -----------------------MODALWINDOW------------------------- */
 
+.modalWindowContainer {
+    grid-area: main;
+    background-color: var(--main-color);
+}
 /* -------------------GENERAL STYLES-------------------- */
 a {
-    text-decoration: none;
+    text-decoration: none !important;
     color: black;
   }
   li {
@@ -232,4 +237,4 @@ a {
     background-color: rgba(5, 5, 5, 0.609);
     color:white;
     transition: .4s;
-  } 
+  }

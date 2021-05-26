@@ -3,6 +3,7 @@ import navComp from '../jsonDocs/NavBarComponents.json'
 import {BrowserRouter as Router, Switch, Route, Link} from 'react-router-dom'
 import Home from './Home'
 import Registry, {Login} from './Registry'
+import ReserveCell from './ReserveCell'
 
 
 export default class Header extends Component {
@@ -16,6 +17,7 @@ export default class Header extends Component {
         return (
             <>
             <Router>
+
                 <section className = "header">
                     <img src="/Images/Logo_and_icons/logo.jpg" alt="Logo.png"/>
                     <div className="navBar">
