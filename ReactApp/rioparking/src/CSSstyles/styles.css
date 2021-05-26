@@ -1,11 +1,11 @@
 
-/* --------------------variable declaration-------------------- */
+
 :root{
   --main-color:#f3f3f3;
   --background-color: white;
 }
 
-/* -------------------general setup-------------------- */
+
 html {
     box-sizing: border-box;
   }
@@ -26,7 +26,7 @@ a{
 }
 .container {
   display:grid;
-  /* background-color: violet; */
+  
   grid-template-columns:repeat(4, 1fr) 150px;
   grid-template-rows: 100px autofit autofit 200px;
   gap: 30px;
@@ -40,7 +40,7 @@ a{
   background-color: var(--main-color);
 
 }
-/* -----------------header setup ---------------------*/
+
 .header{
   grid-area: header;
   grid-column: header-start/span header-end;
@@ -83,7 +83,7 @@ ul{
   margin-right:8px; 
 }
 
-/* ---------------------main setup ------------------------*/
+
 .main{
   grid-area:main;
   grid-column: main-start/ span main-end;
@@ -147,7 +147,7 @@ ul{
   margin: 0;
   padding: 0 20px;
 }
-/* --------------------.right-sidebar------------------ */
+
 .right-sidebar{
   grid-area: sidebar1;
   border-radius: 20px;
@@ -201,14 +201,14 @@ ul{
 .filter-items-img li{
   display: inline;
 }
-/* -----------------------.left-sidebar---------------------- */
+
 .left-sidebar{
   grid-area: sidebar2;
   grid-row: sidebar2-start/ span sidebar2-end;
   border-radius: 20px;
   background-color: var(--background-color);
 }
-/*----------------------- Footer-------------------- */
+
 footer{
   grid-area: footer;
   grid-column: footer-start/ span footer-end;
