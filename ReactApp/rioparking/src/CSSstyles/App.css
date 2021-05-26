@@ -1,7 +1,9 @@
 /* --------------------variable declaration-------------------- */
 :root {
-    --main-color:White;
-    --background-color: #afafaf;
+    --main-color: white;
+    /* --background-color: #afafaf; */
+    --background-color: #e2dede;
+    --button-color:#b6b3b3;
 }
 /* -------------------general setup-------------------- */
 
@@ -47,14 +49,14 @@ html {
     width: 23px;
     height: 23px;
     margin-right: 10px;
-    color:aqua;
+    color:white;
 }
 .navBar li {
     display: inline;
     margin: 0 10px;
 }
 
-
+/* ------------------------MAIN------------------------ */
 .mainSection {
     grid-area: main;
     display: grid;
@@ -93,6 +95,7 @@ html {
     background-color: var(--main-color);
     font-size: 0.9em;
     padding: 30px;
+    border-radius: 10px;
 }
 label {
     display: block;
@@ -197,6 +200,7 @@ footer {
 .loginForm, .registryForm{
     width: 450px;
     padding: 30px;
+    border-radius: 15px;
     background-color: var(--background-color);
 }
 
@@ -208,10 +212,53 @@ footer {
     border-bottom: 1px solid #BDBBBB;
 }
 /* -----------------------MODALWINDOW------------------------- */
+.custom-modal-style {
+    width: 1200px;
+    height: auto;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,0%);
+    padding:2% 4%;
 
-.modalWindowContainer {
-    grid-area: main;
-    background-color: var(--main-color);
+}
+.modal-body {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.inputTime {
+    margin-top:20px;
+}
+.inputTime input {
+    margin-right: 30px;
+    width: 160px;
+    border: none;
+    border-bottom: solid black 1px;
+    padding : 15px;
+}
+.inputTime input::placeholder {
+    text-align: center;
+    font-size: 1.1em;
+}
+.imgModalContainer {
+    padding: 25px;
+    background: linear-gradient(to bottom,var(--main-color),var(--background-color) );
+}
+.modal-body img {
+    width: 400px;
+    height: 300px;
+}
+.modalInputsField {
+    margin-top: 30px;
+}
+.modalInputsField p{
+    display: inline;
+    margin-left: 20px;
+    font-size: 1.4em;
+}
+.modalInputsField input{
+    transform: scale(1.7);
 }
 /* -------------------GENERAL STYLES-------------------- */
 a {
@@ -231,7 +278,7 @@ a {
     cursor:pointer;
     text-align: center;
     font-size: 1.1em;
-    background-color: rgba(5, 5, 5, 0.15);
+    background-color: var(--button-color);
   }
   input[type=button]:hover, input[type="reset"]:hover {
     background-color: rgba(5, 5, 5, 0.609);
